@@ -22,10 +22,6 @@ body{
 }
 
 
-
-
-
-
 .main-container{
 	width: 960px;
 	margin: auto;
@@ -183,10 +179,9 @@ nav a:hover{
 }
 
 .body-paragraph{
-	width: 55%;
+	max-width: 100%;
 	background-repeat: no-repeat;
 	background-size: 100%;
-	float: left;
     font-family: 'Cormorant Upright', serif;
     font-size: 150%;
     line-height: 130%;
@@ -196,8 +191,6 @@ nav a:hover{
 
 .bodyimg{
 	max-width: 43%;
-	float: right;
-	margin-top: 240px;
 	box-sizing: border-box;
 }
 /*Not showing next to body-paragraph*/
