@@ -192,6 +192,8 @@ nav a:hover{
 .bodyimg{
 	max-width: 43%;
 	box-sizing: border-box;
+	float: right;
+	margin: 7px 0 0 15px;
 }
 /*Not showing next to body-paragraph*/
 
