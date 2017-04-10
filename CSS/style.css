@@ -401,10 +401,8 @@ textarea:focus{
 }
 
 .cardsaccepted{
-	position: absolute;
-	bottom: 90px;
-	left: 25px;
 	width: 725px;
+	margin: 10px 15px;
 }
 
 
@@ -418,13 +416,6 @@ textarea:focus{
 #cards-accepted{
 	max-width: 35%;
 	height: auto;
-	float: left;
-}
-
-.cards-paragraph{
-	display: block;
-	position: absolute;
-	margin-top: 50px;
 }
 
 .cards-paragraph p{
