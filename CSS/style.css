@@ -157,7 +157,7 @@ img.RestLogo{
 }
 
 
-nav a:hover{
+nav li:hover{
 	background: #d0edaf;
 }
 
