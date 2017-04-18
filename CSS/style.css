@@ -3,28 +3,6 @@ body{
 	background: rgba(117, 112, 112, 0.06);
 }
 
-@media screen and (max-width: 700px){
-
-	.body-paragraph{
-		float: none;
-		width: auto;
-	}
-
-	.bodyimg{
-		display: none;
-	}
-
-	.navigationbar li{
-		width: 50%;
-	}
-
-
-}
-
-
-
-
-
 
 .main-container{
 	width: 960px;
@@ -52,6 +30,7 @@ img.RestLogo{
 .btmfiller{
 	background-image: url("../Images/Aztec2white.jpg");
 	background-repeat: repeat-x;
+	margin-bottom: -5px;
 }
 
 .pic-filler{
@@ -71,7 +50,7 @@ img.RestLogo{
     letter-spacing: -1.5px;
     position: absolute;
     top: 35px;
-    left: 180px;
+    left: 290px;
 }
 
 .headercontact p{
@@ -161,8 +140,8 @@ img.RestLogo{
 }
 
 
-nav a:hover{
-	background: #d0edaf;
+nav li:hover{
+	background: #d0edaf;	
 }
 
 @media screen and (max-width: 700px){
@@ -183,10 +162,9 @@ nav a:hover{
 }
 
 .body-paragraph{
-	width: 55%;
+	max-width: 100%;
 	background-repeat: no-repeat;
 	background-size: 100%;
-	float: left;
     font-family: 'Cormorant Upright', serif;
     font-size: 150%;
     line-height: 130%;
@@ -195,10 +173,10 @@ nav a:hover{
 }
 
 .bodyimg{
-	max-width: 43%;
-	float: right;
-	margin-top: 240px;
+	max-width: 45%;
 	box-sizing: border-box;
+	float: right;
+	margin: 7px 0 0 15px;
 }
 /*Not showing next to body-paragraph*/
 
@@ -397,8 +375,7 @@ textarea:focus{
 /*footer section*/
 
 #footer{
-	width: 960px;
-	margin-top: 100%;
+	width: 100%;
 	padding: 5px;
 	text-align: center;
 	font-size: 18px;
@@ -406,10 +383,8 @@ textarea:focus{
 }
 
 .cardsaccepted{
-	position: absolute;
-	bottom: 90px;
-	left: 25px;
 	width: 725px;
+	margin: 50px 15px;
 }
 
 
@@ -423,13 +398,6 @@ textarea:focus{
 #cards-accepted{
 	max-width: 35%;
 	height: auto;
-	float: left;
-}
-
-.cards-paragraph{
-	display: block;
-	position: absolute;
-	margin-top: 50px;
 }
 
 .cards-paragraph p{
