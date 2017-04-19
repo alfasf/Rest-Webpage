@@ -265,24 +265,30 @@ address{
 iframe{
 	margin-top: 10px;
 	margin-left: 5em;
+	margin-bottom: 10px;
 	box-shadow: 10px 10px 5px #aaaaaa;
 	border-radius: 5px;
 }
 
+
+table.table-schedule{
+	width: 50%;
+	margin: 0 25px;
+}
+
 table .table-schedule td{
 
-	text-align: left;
 	border: none;
 }
 
  .days{
 
-	width: 25%;
+	width: 40%;
 	font-weight: bolder;
 }
 
 .time{
-	width: 75%;
+	width: 35%;
 }
 
 .Second-Half{
