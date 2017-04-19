@@ -384,7 +384,8 @@ textarea:focus{
 
 .cardsaccepted{
 	width: 725px;
-	margin: 50px 15px;
+	margin: 50px auto;
+	text-align: center;
 }
 
 
