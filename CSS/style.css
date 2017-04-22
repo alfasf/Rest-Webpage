@@ -388,6 +388,12 @@ textarea:focus{
 	background-color: #e6f9da;
 }
 
+#footer p {
+	font-size: 11px;
+	font-family: "Rockwell Extra Bold", "Rockwell Bold", monospace;
+	color: #9c9898;
+}
+
 .cardsaccepted{
 	width: 725px;
 	margin: 50px auto;
