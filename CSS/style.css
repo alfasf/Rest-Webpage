@@ -11,6 +11,10 @@ body{
 	background-color: white;
 }
 
+.top-fixed{
+	position: fixed;
+}
+
 .headercontainer{
 	margin-top: -7px;
 	background-color: #ddf5ce;
