@@ -13,9 +13,11 @@ body{
 
 .top-fixed{
 	position: fixed;
+	z-index: 1;
 }
 
 .headercontainer{
+	width: 100%;
 	margin-top: -7px;
 	background-color: #ddf5ce;
 
