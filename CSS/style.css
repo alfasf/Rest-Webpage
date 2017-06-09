@@ -24,13 +24,11 @@ body{
 }
 
 .topfiller{
-	background-image: url("../Images/Aztec2white.jpg");
-	background-repeat: repeat-x;
+	
 }
 
 img.RestLogo{
-	position: relative;
-	left: 7px;
+	
 }
 
 .btmfiller{
@@ -54,16 +52,10 @@ img.RestLogo{
     color: rgba(11, 123, 40, 0.86);
     font-size: 110%;
     letter-spacing: -1.5px;
-    position: absolute;
-    top: 35px;
-    left: 290px;
 }
 
 .headercontact p{
 	display: block;
-	position: absolute;
-	top: 30px;
-	left: 780px;
 	line-height: 60%;
     font-family: 'Frank Ruhl Libre', sans-serif;
     font-size: 87%;
@@ -83,9 +75,6 @@ img.RestLogo{
 
 .headerschedule{
 	display: block;
-	position: absolute;
-	left: 325px;
-	top: 120px;
 }
 
 .headerschedule p{
@@ -100,8 +89,6 @@ img.RestLogo{
 
 .socialmedia{
 	position: absolute;
-	top: 145px;
-	left: 800px;
 	letter-spacing: 2px;
 }
 
