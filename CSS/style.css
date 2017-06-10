@@ -11,6 +11,12 @@ body{
 	background-color: white;
 }
 
+.top-fixed{
+	width: 960px;
+	position: fixed;
+	z-index: 1;
+}
+
 .headercontainer{
 	margin-top: -7px;
 	background-color: #ddf5ce;
@@ -109,6 +115,7 @@ img.RestLogo{
 .navigationbar {
 	margin: 0px;
 	border-top: 1px solid rgba(106, 180, 83, 0.82);
+	background-color: #FFF;
 }
 
 
@@ -163,6 +170,7 @@ nav li:hover{
 
 .body-paragraph{
 	max-width: 100%;
+	margin-top: 25%;
 	background-repeat: no-repeat;
 	background-size: 100%;
     font-family: 'Cormorant Upright', serif;
