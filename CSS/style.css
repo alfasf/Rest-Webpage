@@ -195,6 +195,7 @@ nav li:hover{
 /*Table content*/
 
 .tablecontainer{
+	margin-top: 23%;
 	background-image: url(../Images/Tacos-de-Barbacoa1.png);
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -237,8 +238,8 @@ form{
 
 .First-Half{
 	width: 60%;
+	margin-top: 23%;
 	float: left;
-	margin-top: 30px;
 }
 
 .First-Half h2{
@@ -297,8 +298,8 @@ table .table-schedule td{
 
 .Second-Half{
 	width: 35%;
+	margin-top: 23%;
 	float: left;
-	margin-top: 30px;
 }
 
 .Second-Half h3{
