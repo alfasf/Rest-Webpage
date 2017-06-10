@@ -30,43 +30,37 @@ body{
 
 img.RestLogo{
 	position: relative;
+	padding-top: 2px;
 	left: 7px;
 }
 
 .btmfiller{
 	background-image: url("../Images/Aztec2white.jpg");
 	background-repeat: repeat-x;
+	margin-top: 6px;
 	margin-bottom: -5px;
-}
-
-.pic-filler{
-	margin-top: -25px;
-}
-
-#pic-filler{
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
 }
 
 #mainMotto{
     font-family: 'Rock Salt', cursive;
     color: rgba(11, 123, 40, 0.86);
-    font-size: 110%;
+    font-size: 105%;
     letter-spacing: -1.5px;
     position: absolute;
-    top: 35px;
+    margin: 0;
+    top: 24px;
     left: 290px;
 }
 
 .headercontact p{
 	display: block;
 	position: absolute;
-	top: 30px;
+	margin: 0;
+	top: 33px;
 	left: 780px;
 	line-height: 60%;
     font-family: 'Frank Ruhl Libre', sans-serif;
-    font-size: 87%;
+    font-size: 80%;
     color: brown;
 }
 
@@ -85,14 +79,14 @@ img.RestLogo{
 	display: block;
 	position: absolute;
 	left: 325px;
-	top: 120px;
+	top: 80px;
 }
 
 .headerschedule p{
-	line-height: 70%;
+	line-height: 60%;
 	font-size: 20px;
 	color: #0B3504;
-	font-size: 95%;
+	font-size: 90%;
 	font-weight: 600;
 }
 
@@ -100,8 +94,9 @@ img.RestLogo{
 
 .socialmedia{
 	position: absolute;
-	top: 145px;
-	left: 800px;
+	margin-top: 6px;	
+	top: 95px;
+	left: 790px;
 	letter-spacing: 2px;
 }
 
@@ -122,16 +117,17 @@ img.RestLogo{
 .navigationbar ul{
 	margin-top: 0;
 	margin-bottom: 0;
+	padding: 0;
 	text-align: center;
 }
 
 
 .navigationbar li{
 	display: inline-block;
-	margin-top: 10px;
+	margin-top: 6px;
 	list-style: none;
 	margin-right: 15px;
-	padding: 10px 15px;
+	padding: 3px 11px;
     font-family: 'Indie Flower', cursive;
     font-size: 120%;
     text-transform: uppercase;
@@ -170,7 +166,7 @@ nav li:hover{
 
 .body-paragraph{
 	max-width: 100%;
-	margin-top: 25%;
+	margin-top: 22%;
 	background-repeat: no-repeat;
 	background-size: 100%;
     font-family: 'Cormorant Upright', serif;
