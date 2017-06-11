@@ -172,7 +172,7 @@ nav li:hover{
 	background-size: 100%;
     font-family: 'Cormorant Upright', serif;
     font-size: 150%;
-    line-height: 130%;
+    line-height: 180%;
     color: rgba(38, 150, 44, 0.9);
     font-weight: bold;
 }
@@ -194,9 +194,14 @@ nav li:hover{
 /*end of body content*/
 
 /*Table content*/
+.bodytxtcontent .menutitle{
+	margin-top: 20%;
+	font-family: 'Rock Salt', cursive;
+	color: rgba(11, 123, 40, 0.86);
+	text-align: center;
+}
 
 .tablecontainer{
-	margin-top: 23%;
 	background-image: url(../Images/Tacos-de-Barbacoa1.png);
 	background-repeat: no-repeat;
 	background-size: cover;
