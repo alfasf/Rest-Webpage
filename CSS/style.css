@@ -196,7 +196,8 @@ nav li:hover{
 /*Table content*/
 .bodytxtcontent .menutitle{
 	margin-top: 20%;
-	font-family: 'Rock Salt', cursive;
+	font-family: 'Indie Flower', cursive;
+;
 	color: rgba(11, 123, 40, 0.86);
 	text-align: center;
 }
