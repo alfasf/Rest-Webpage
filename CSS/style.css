@@ -14,7 +14,15 @@ body{
 .headercontainer{
 	margin-top: -7px;
 	background-color: #ddf5ce;
+}
 
+.mini-topheader{
+	background-color: #fff;
+}
+
+.mini-topheader span.minitop{
+	font-size: 0.7rem;
+	margin-left: 3px;
 }
 
 .topfiller{
