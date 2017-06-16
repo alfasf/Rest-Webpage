@@ -18,12 +18,20 @@ body{
 
 .mini-topheader{
 	background-color: #fff;
+	padding: 4px;
 }
 
 .mini-topheader span.minitop{
-	font-size: 0.7rem;
+	font-size: 0.85rem;
 	margin-left: 3px;
 }
+
+.mini-topheader a{
+	text-decoration: none;
+	font-size: 0.85rem;
+}
+
+
 
 .topfiller{
 	background-image: url("../Images/Aztec2white.jpg");
@@ -101,14 +109,17 @@ img.RestLogo{
 /*social media icons*/
 
 .socialmedia{
-	position: absolute;
-	top: 145px;
-	left: 800px;
+	float: right;
 	letter-spacing: 2px;
 }
 
 .socialmedia a{
 	display: inline-block;
+}
+
+.socialmedia .social{
+	width: 15px;
+	height: auto;
 }
 
 
