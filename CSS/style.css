@@ -12,16 +12,38 @@ body{
 }
 
 .top-fixed{
-	width: 960px;
-	position: fixed;
+
+	
 	margin-top: -1px;
-	z-index: 999;
+
 }
 
 .headercontainer{
+	position: fixed;
+	width: 960px;
 	margin-top: -7px;
 	background-color: #ddf5ce;
+	z-index: 999;
+}
 
+.mini-topheader{
+	background-color: #fff;
+	padding: 4px;
+}
+
+.mini-topheader span.minitop{
+	font-size: 0.85rem;
+	margin-left: 7px;
+}
+
+.mini-topheader i.fa{
+	margin-left: 10px;
+}
+
+.mini-topheader a{
+	text-decoration: none;
+	font-size: 0.85rem;
+	color: #0009;
 }
 
 .topfiller{
@@ -31,8 +53,9 @@ body{
 
 img.RestLogo{
 	position: relative;
-	padding-top: 2px;
 	left: 7px;
+	width: 90px;
+	height: auto;
 }
 
 .btmfiller{
@@ -45,12 +68,11 @@ img.RestLogo{
 #mainMotto{
     font-family: 'Rock Salt', cursive;
     color: rgba(11, 123, 40, 0.86);
-    font-size: 105%;
+    font-size: 115%;
     letter-spacing: -1.5px;
     position: absolute;
-    margin: 0;
-    top: 24px;
-    left: 290px;
+    top: 46px;
+    left: 314px;
 }
 
 .headercontact p{
@@ -94,10 +116,7 @@ img.RestLogo{
 /*social media icons*/
 
 .socialmedia{
-	position: absolute;
-	margin-top: 6px;	
-	top: 100px;
-	left: 790px;
+	float: right;
 	letter-spacing: 2px;
 }
 
@@ -105,30 +124,32 @@ img.RestLogo{
 	display: inline-block;
 }
 
+.socialmedia .social{
+	width: 20px;
+	height: auto;
+}
 
 /*Navigation Menu*/
 
 .navigationbar {
-	margin: 0px;
-	border-top: 1px solid rgba(106, 180, 83, 0.82);
-	background-color: #FFF;
+	margin-top: -55px;
+	margin-bottom: 2px;
 }
 
 
 .navigationbar ul{
 	margin-top: 0;
 	margin-bottom: 0;
-	padding: 0;
 	text-align: center;
 }
 
 
 .navigationbar li{
 	display: inline-block;
-	margin-top: 6px;
+	margin-top: 10px;
 	list-style: none;
 	margin-right: 15px;
-	padding: 3px 11px;
+	padding: 3px 10px;
     font-family: 'Indie Flower', cursive;
     font-size: 120%;
     text-transform: uppercase;
