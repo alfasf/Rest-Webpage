@@ -21,7 +21,7 @@ body{
 .headercontainer{
 	position: fixed;
 	width: 960px;
-	margin-top: -7px;
+	margin-top: -8px;
 	background-color: #ddf5ce;
 	z-index: 999;
 }
@@ -218,7 +218,7 @@ nav li:hover{
 .bodytxtcontent .menutitle{
 	margin-top: 20%;
 	font-family: 'Indie Flower', cursive;
-;
+	font-size: 1.9rem;
 	color: rgba(11, 123, 40, 0.86);
 	text-align: center;
 }
