@@ -70,10 +70,12 @@ img.RestLogo{
     color: rgba(11, 123, 40, 0.86);
     font-size: 115%;
     letter-spacing: -1.5px;
-    position: absolute;
-    top: 46px;
-    left: 314px;
 }
+
+.restaurantmotto{
+	margin: -119px 18rem 0 17rem;
+}
+
 
 .headercontact p{
 	display: block;
@@ -132,7 +134,7 @@ img.RestLogo{
 /*Navigation Menu*/
 
 .navigationbar {
-	margin-top: -55px;
+	margin-top: -6px;
 	margin-bottom: 2px;
 }
 
