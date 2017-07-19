@@ -17,8 +17,7 @@ body{
 
 .headercontainer{
 	margin-top: -7px;
-	background-color: #ddf5ce;
-
+	background: linear-gradient(to bottom right, #ddf5ce, #5c9e19, rgb(234, 234, 40));
 }
 
 .topfiller{
@@ -226,6 +225,13 @@ tr .items-header{
 /*End of Table content*/
 
 /*Contact Us*/
+
+.contactform{
+	background-image: url(../Images/MG_8911-300x220.jpg);
+	background-repeat: no-repeat;
+	background-size: auto 35%;
+	background-position: 50% 25%;
+}
 
 form{
 	background-color: #efe9e9;
