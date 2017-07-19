@@ -18,7 +18,30 @@ body{
 .headercontainer{
 	margin-top: -7px;
 	background: linear-gradient(to bottom right, #ddf5ce, #5c9e19, rgb(234, 234, 40));
+
 }
+
+.mini-topheader{
+	background-color: #fff;
+	padding: 4px;
+}
+
+.mini-topheader span.minitop{
+	font-size: 0.85rem;
+	margin-left: 7px;
+}
+
+.mini-topheader i.fa{
+	margin-left: 10px;
+}
+
+.mini-topheader a{
+	text-decoration: none;
+	font-size: 0.85rem;
+	color: #0009;
+}
+
+
 
 .topfiller{
 	background-image: url("../Images/Aztec2white.jpg");
@@ -28,6 +51,8 @@ body{
 img.RestLogo{
 	position: relative;
 	left: 7px;
+	width: 96px;
+	height: auto;
 }
 
 .btmfiller{
@@ -49,11 +74,11 @@ img.RestLogo{
 #mainMotto{
     font-family: 'Rock Salt', cursive;
     color: rgba(11, 123, 40, 0.86);
-    font-size: 110%;
+    font-size: 115%;
     letter-spacing: -1.5px;
     position: absolute;
-    top: 35px;
-    left: 290px;
+    top: 46px;
+    left: 314px;
 }
 
 .headercontact p{
@@ -96,9 +121,7 @@ img.RestLogo{
 /*social media icons*/
 
 .socialmedia{
-	position: absolute;
-	top: 145px;
-	left: 800px;
+	float: right;
 	letter-spacing: 2px;
 }
 
@@ -106,12 +129,17 @@ img.RestLogo{
 	display: inline-block;
 }
 
+.socialmedia .social{
+	width: 20px;
+	height: auto;
+}
+
 
 /*Navigation Menu*/
 
 .navigationbar {
-	margin: 0px;
-	border-top: 1px solid rgba(106, 180, 83, 0.82);
+	margin-top: -51px;
+	margin-bottom: 2px;
 }
 
 
@@ -127,7 +155,7 @@ img.RestLogo{
 	margin-top: 10px;
 	list-style: none;
 	margin-right: 15px;
-	padding: 10px 15px;
+	padding: 3px 10px;
     font-family: 'Indie Flower', cursive;
     font-size: 120%;
     text-transform: uppercase;
