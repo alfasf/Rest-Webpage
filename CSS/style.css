@@ -177,8 +177,17 @@ nav li:hover{
 		display: none;
 	}
 	
+	.RestLogo{
+		width: 20%;
+	}
+	
+	#mainMotto{
+		top: 30px;
+	}
+	
 	.navigationbar li{
 		width: 50%;
+		top: -155px;
 	}
 }
 
