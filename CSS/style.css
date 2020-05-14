@@ -172,7 +172,11 @@ nav li:hover{
 }
 
 @media screen and (max-width: 700px){
-
+	
+	.mini-topheader{
+		display: none;
+	}
+	
 	.navigationbar li{
 		width: 50%;
 	}
