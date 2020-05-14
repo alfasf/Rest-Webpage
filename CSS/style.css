@@ -27,7 +27,9 @@ body{
   display: grid;
   grid-template-columns: 1fr auto;
   grid-column-gap: 300px;
-  margin-top: 2px;
+  margin-top: 0;
+  padding-top: 4px;
+  background-color: #fff;
 }
 
 .mini-topheader i.fa {
@@ -36,6 +38,7 @@ body{
 
 .info-top{
 	margin-left: 0;
+	color: #5a5a5a;
 }
 
 .mini-topheader span.minitop{
