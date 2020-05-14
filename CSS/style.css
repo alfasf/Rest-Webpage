@@ -193,6 +193,12 @@ nav li:hover{
 
 /*Body content*/
 
+#pic-filler {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .bodytxtcontent{
 	padding-left: 20px;
 	padding-right: 20px;
@@ -201,7 +207,7 @@ nav li:hover{
 
 .body-paragraph{
 	max-width: 100%;
-	margin-top: 22%;
+	margin-top: 20%;
 	background-repeat: no-repeat;
 	background-size: 100%;
     font-family: 'Cormorant Upright', serif;
@@ -215,7 +221,7 @@ nav li:hover{
 	max-width: 45%;
 	box-sizing: border-box;
 	float: right;
-	margin: 7px 0 0 15px;
+	margin: 35px 0 0 15px;
 }
 /*Not showing next to body-paragraph*/
 
